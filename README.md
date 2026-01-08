@@ -40,7 +40,6 @@ The AUC-ROC value is only slightly better than random guessing (~50%), indicatin
 **1. Clone this repository:**
 ```
 git clone https://github.com/Uthmanee/machine-learning-zoomcamp-capstone1.git
-cd script
 ```
 **2. Install Pipenv (if not already installed)**
 ```
@@ -53,8 +52,11 @@ pipenv install
 ```
 **2. Run the flask server**
 ```
-# Enter the virtual environment by running the command below in the root directory
+# Start the virtual environment by running the command below in the root directory
 pipenv shell
+
+# Navigate into the script directory after starting the virtual environment
+cd script
 
 # Start the flask server by running
 python predict.py
