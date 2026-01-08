@@ -12,7 +12,7 @@ The project involves data cleaning, exploratory data analysis (EDA), feature imp
 
 ## Dataset
 
-The dataset used in this project is a **synthetic dataset sourced from Kaggle (https://www.kaggle.com/datasets/anthonytherrien/depression-dataset)**. It was generated artificially rather than collected from real-world observations.
+The dataset used in this project is a **[synthetic dataset sourced from Kaggle](https://www.kaggle.com/datasets/anthonytherrien/depression-dataset)**. It was generated artificially rather than collected from real-world observations.
 
 ⚠️ **Important Notes:**
 
