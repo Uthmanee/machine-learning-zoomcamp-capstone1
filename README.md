@@ -35,3 +35,29 @@ Several models were trained, including **Logistic Regression, Decision Trees, Ra
 The AUC-ROC value is only slightly better than random guessing (~50%), indicating **weak predictive power**. This reflects the limitations of the synthetic dataset rather than the models themselves.  
 
 **Note:** Feature importance analysis did not reveal any strongly predictive features. These results are intended for **educational and experimental purposes** and should **not** be used for real-world predictions.
+
+### Installation & Setup
+**1. Clone this repository:**
+```
+git clone https://github.com/Uthmanee/machine-learning-zoomcamp-capstone1.git
+cd script
+```
+**2. Install Pipenv (if not already installed)**
+```
+    pip install pipenv
+```
+## Run locally (without docker)
+**1. Install all dependencies/packages mentioned in the **Pipfile** within the new virtual environment being created.**
+```
+pipenv install
+```
+**2. Run the flask server**
+```
+# Enter the virtual environment by running the command below in the root directory
+pipenv shell
+
+# Start the flask server by running
+python predict.py
+
+# Make a prediction
+python predict_test.py
