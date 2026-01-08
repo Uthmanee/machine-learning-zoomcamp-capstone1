@@ -60,10 +60,13 @@ cd script
 
 # Start the flask server by running
 python predict.py
-
+```
+**3. Run the test script to make a prediction**
+```
 # Make a prediction
 python predict_test.py
 ```
+
 ## Docker Usage
 **1. Build the Docker Image:**
 
@@ -76,4 +79,9 @@ docker build -t depression-prediction .
 Start the container using
 ```
 docker run -p 9696:9696 depression-prediction
+```
+**3. Run the test script to make a prediction**
+```
+# Make a prediction
+python predict_test.py
 ```
