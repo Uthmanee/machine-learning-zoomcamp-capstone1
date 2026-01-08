@@ -63,3 +63,17 @@ python predict.py
 
 # Make a prediction
 python predict_test.py
+```
+## Docker Usage
+**1. Build the Docker Image:**
+
+Use the following command to build the Docker image
+```
+docker build -t depression-prediction .
+```
+**2. Run the Docker Container**
+
+Start the container using
+```
+docker run -p 9696:9696 depression-prediction
+```
